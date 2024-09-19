@@ -1,0 +1,109 @@
+body{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(EinkaufslisteBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    text-indent: 35px; /*vorher 35%*/
+    color: rgb(243, 155, 169);
+}
+
+ul li {
+    background-image: url('Bulletpoints.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 05px;
+    margin-left: 800px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: largest;
+    color: rgb(22, 177, 22);
+}
+
+button {
+    background-color: indianred;
+    color: rgb(250, 161, 28);
+    outline: dashed;
+    border-radius: 13px;
+    margin: 10px;
+    font-size: small;
+}
+
+textarea {
+    background-color: rgb(245, 220, 233);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 15px;
+    border-color: yellow;
+}
+
+@media (min-width:600px) {
+    body{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(EinkaufslisteBackground.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      
+    }
+    
+    ul {
+        list-style: none;
+        text-align: left;
+        text-indent: 35px; /*vorher 35%*/
+        color: rgb(243, 155, 169);
+    }
+    
+    ul li {
+        background-image: url('Bulletpoints.png');
+        background-size: 20px 20px;
+        background-repeat: no-repeat;
+        background-position: 05px;
+        margin-left: 43%;
+        margin-bottom: 10px;
+    }
+    
+    h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 50px;
+        color: rgb(22, 177, 22);
+        margin-left: 15%;
+        margin-right: 15%;
+
+    }
+    
+    button {
+        background-color: indianred;
+        color: rgb(250, 161, 28);
+        outline: dashed;
+        border-radius: 13px;
+        margin: 10px;
+        font-size: large;
+    }
+    
+    textarea {
+        background-color: rgb(245, 220, 233);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: large;
+        text-align: center;
+        border-style: dashed;
+        border-radius: 15px;
+        border-color: yellow;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
